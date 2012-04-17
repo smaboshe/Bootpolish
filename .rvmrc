@@ -1,0 +1,2 @@
+# Use this gemset if it exists. If it does not exist, create it.
+rvm use ruby-1.9.3-p125@shoepolish-rails.3.x.x --create
