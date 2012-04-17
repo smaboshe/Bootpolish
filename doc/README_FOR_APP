@@ -1,2 +1,17 @@
-Use this README file to introduce your application and point to useful places in the API for learning more.
-Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
+# Rake for testing
+gem cleanup
+bundle update
+rake db:drop
+rake db:setup
+bundle exec rake
+
+
+
+
+# Guard for testing
+gem cleanup
+bundle update
+rake db:drop
+rake db:setup
+rake db:test:prepare
+bundle exec guard --no-vendor

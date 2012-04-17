@@ -1,14 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Shoepolish</title>
+  <title><%= render "title" %></title>
+
+	<%= render "viewport" %>
+
+	<%= render "less_than_ie9" %>
+
   <%= stylesheet_link_tag    "application", :media => "all" %>
+
   <%= javascript_include_tag "application" %>
+
+	<%= render "favicons" %>
+
   <%= csrf_meta_tags %>
+
+	<%= render "analytics" %>
 </head>
-<body>
+<body id="<%= body_id %>">
+	<a name="top"></a>
+	<%= render "navigation" %>
 
-<%= yield %>
+	<div id="page" class="container">
 
+		<%= render "notifications" %>
+
+		<%= yield %>
+
+	</div><!-- /#page -->
+
+	<%= render "footer" %>
 </body>
 </html>

@@ -12,6 +12,7 @@ gem "bundler"
 gem "jquery-rails"
 gem "rake"
 gem "rvm"
+gem "settingslogic"
 gem "sqlite3"
 
 
@@ -38,6 +39,8 @@ group :test, :darwin do
 end
 
 group :test do
+  #gem "exception_notification"
+  #gem "ruby-debug"
   gem "capybara"
   gem "factory_girl_rails"
   gem "guard-bundler"
