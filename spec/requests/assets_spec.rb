@@ -17,6 +17,12 @@ describe "Assets" do
 
       get "/assets/bootstrap.js"
       response.status.should be(200)
+
+      get "/assets/glyphicons-halflings.png"
+      response.status.should be(200)
+
+      get "/assets/glyphicons-halflings-white.png"
+      response.status.should be(200)
     end
   end
 
