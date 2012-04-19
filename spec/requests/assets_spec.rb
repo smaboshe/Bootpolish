@@ -31,6 +31,9 @@ describe "Assets" do
     it "has stylesheet assets" do
       get "/assets/styles.css"
       response.status.should be(200)
+
+      get "/assets/welcome.css"
+      response.status.should be(200)
     end
   end
 
@@ -38,6 +41,18 @@ describe "Assets" do
   # In app/assets/images/
   describe "app/assets/images/" do
     it "has image assets" do
+      get "/assets/apple-touch-icon.png"
+      response.status.should be(200)
+
+      get "/assets/apple-touch-icon-72x72.png"
+      response.status.should be(200)
+
+      get "/assets/apple-touch-icon-114x114.png"
+      response.status.should be(200)
+
+      get "/assets/favicon.ico"
+      response.status.should be(200)
+
       get "/assets/favicon.ico"
       response.status.should be(200)
     end
