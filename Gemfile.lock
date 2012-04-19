@@ -70,7 +70,7 @@ GEM
       spork (>= 0.8.4)
     hike (1.2.1)
     i18n (0.6.0)
-    jombo (1.0.3.beta1)
+    jombo (1.0.3)
     journey (1.0.3)
     jquery-rails (2.0.2)
       railties (>= 3.2.0, < 5.0)
@@ -178,7 +178,7 @@ DEPENDENCIES
   guard-bundler
   guard-rspec
   guard-spork
-  jombo (~> 1.0.3.beta1)
+  jombo (~> 1.0.3)
   jquery-rails
   launchy
   pcs_tablesorter

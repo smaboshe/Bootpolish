@@ -1,4 +1,4 @@
-Shoepolish::Application.routes.draw do
+Bootpolish::Application.routes.draw do
   get "welcome/index"
 
   root :to => "welcome#index"
