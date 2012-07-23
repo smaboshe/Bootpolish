@@ -39,3 +39,4 @@ Git/Update Sequence
 - gem install the jombo beta from the jombo pkg/
 	e.g. gem install ~/Projects/Gem/jombo/pkg/jombo-1.0.7.beta1.gem
 - test
+- Git commit showing the version tested
