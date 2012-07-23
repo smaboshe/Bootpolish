@@ -40,3 +40,7 @@ Git/Update Sequence
 	e.g. gem install ~/Projects/Gem/jombo/pkg/jombo-1.0.7.beta1.gem
 - test
 - Git commit showing the version tested
+- git checkout master
+- git merge work
+- git push origin
+- git push github
