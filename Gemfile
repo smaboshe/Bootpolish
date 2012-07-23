@@ -20,7 +20,7 @@ gem "sqlite3"
 
 group :assets do
   gem "coffee-rails"
-  gem "jombo", "~> 1.0.6.beta1" # Install the local development version before pushing it to rubygems
+  gem "jombo", "~> 1.0.7.beta1" # Install the local development version before pushing it to rubygems
   gem "pcs_tablesorter"
   gem "sass-rails"
   gem "uglifier"
