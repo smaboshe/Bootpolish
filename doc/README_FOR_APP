@@ -1,4 +1,6 @@
-# Rake for testing
+Rake for testing
+================
+
 gem cleanup
 bundle update
 rake db:drop
@@ -8,10 +10,32 @@ bundle exec rake
 
 
 
-# Guard for testing
+Guard for testing
+=================
 gem cleanup
 bundle update
 rake db:drop
 rake db:setup
 rake db:test:prepare
 bundle exec guard
+
+
+
+
+Gems
+====
+MAINTAIN GEM BUNDLE
+gem cleanup
+bundle update
+
+
+
+
+Git/Update Sequence
+===================
+- Switch to the "work" branch
+- git merge master
+- Update Gemfile with jombo beta from the jombo pkg/
+- gem install the jombo beta from the jombo pkg/
+	e.g. gem install ~/Projects/Gem/jombo/pkg/jombo-1.0.7.beta1.gem
+- test
