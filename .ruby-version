@@ -1,2 +1,1 @@
-# Use this gemset if it exists. If it does not exist, create it.
-rvm use ruby-1.9.3-p327@bootpolish-rails.3.x.x --create
+ruby-1.9.3-p392@bootpolish-rails.3.2.x
