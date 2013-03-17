@@ -20,7 +20,7 @@ gem "sqlite3"
 
 group :assets do
   gem "coffee-rails"
-  gem "jombo", "~> 1.0.8.beta1" # Install the local development version before pushing it to rubygems
+  gem "jombo", "~> 1.0.11.beta1" # Install the local development version before pushing it to rubygems
   gem "pcs_tablesorter"
   gem "sass-rails"
   gem "uglifier"
@@ -29,17 +29,10 @@ end
 
 
 
-group :development do
-  #gem "gaskit"
-end
-
 group :test, :development do
+  gem "rb-fsevent"
+  gem "rb-inotify"
   gem "rspec-rails"
-end
-
-group :test, :darwin do
-  gem "rb-fsevent-legacy" # PowerPC
-  gem "rb-readline"
 end
 
 group :test do

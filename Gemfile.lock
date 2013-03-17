@@ -70,7 +70,7 @@ GEM
       spork (>= 0.8.4)
     hike (1.2.1)
     i18n (0.6.0)
-    jombo (1.0.8beta1)
+    jombo (1.0.11.beta1)
     journey (1.0.4)
     jquery-rails (2.1.1)
       railties (>= 3.1.0, < 5.0)
@@ -122,10 +122,8 @@ GEM
     rb-fchange (0.0.5)
       ffi
     rb-fsevent (0.9.1)
-    rb-fsevent-legacy (0.2.0)
     rb-inotify (0.8.8)
       ffi (>= 0.5.0)
-    rb-readline (0.4.2)
     rdoc (3.12)
       json (~> 1.4)
     rspec (2.11.0)
@@ -186,15 +184,15 @@ DEPENDENCIES
   guard-bundler
   guard-rspec
   guard-spork
-  jombo (~> 1.0.8.beta1)
+  jombo (~> 1.0.11.beta1)
   jquery-rails
   launchy
   pcs_tablesorter
   rack_session_access
   rails
   rake
-  rb-fsevent-legacy
-  rb-readline
+  rb-fsevent
+  rb-inotify
   rspec-rails
   rvm
   sass-rails
